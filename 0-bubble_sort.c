@@ -1,9 +1,11 @@
 #include "sort.h"
+
 /**
  *bubble_sort - Bubble sorting function.
  *@array: pointer to array of unsorted strings.
  *@size: Arrays size
  */
+
 void bubble_sort(int *array, size_t size)
 {
 	int m = 0, flag;
